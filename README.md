@@ -33,16 +33,6 @@ pnpm run lint:fix
 npx @eslint/config-inspector
 ```
 
-## Lint Staged
-
-If you want to apply lint and auto-fix before every commit, this template use [lint-staged](https://github.com/lint-staged/lint-staged) and [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks) (they are already in the `package.json`).
-
-Run the CLI script to update the git hooks with the commands from the config:
-
-```bash
-npx simple-git-hooks
-```
-
 ## Commitlint hint
 
 ```bash
