@@ -20,7 +20,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^7.6.1
-        version: 7.6.1(@eslint-react/eslint-plugin@2.13.0(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.56.1(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.56.1(typescript@5.9.3))(@typescript-eslint/utils@8.56.1(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.29)(eslint-plugin-react-hooks@7.0.1(eslint@9.39.3(jiti@2.6.1)))(eslint-plugin-react-refresh@0.4.26(eslint@9.39.3(jiti@2.6.1)))(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3)
+        version: 7.6.1(@eslint-react/eslint-plugin@2.13.0(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.56.1(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.56.1(typescript@5.9.3))(@typescript-eslint/utils@8.56.1(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.29)(eslint-plugin-format@2.0.1(eslint@9.39.3(jiti@2.6.1)))(eslint-plugin-react-hooks@7.0.1(eslint@9.39.3(jiti@2.6.1)))(eslint-plugin-react-refresh@0.4.26(eslint@9.39.3(jiti@2.6.1)))(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3)
       '@commitlint/cli':
         specifier: ^20.4.3
         version: 20.4.3(@types/node@24.11.0)(typescript@5.9.3)
@@ -66,9 +66,6 @@ importers:
       lint-staged:
         specifier: ^16.3.2
         version: 16.3.2
-      simple-git-hooks:
-        specifier: ^2.13.1
-        version: 2.13.1
       typescript:
         specifier: ~5.9.3
         version: 5.9.3
@@ -237,16 +234,6 @@ packages:
   '@clack/prompts@1.1.0':
     resolution: {integrity: sha512-pkqbPGtohJAvm4Dphs2M8xE29ggupihHdy1x84HNojZuMtFsHiUlRvqD24tM2+XmI+61LlfNceM3Wr7U5QES5g==}
 
-<<<<<<< HEAD
-  '@dprint/formatter@0.5.1':
-    resolution: {integrity: sha512-cdZUrm0iv/FnnY3CKE2dEcVhNEzrC551aE2h2mTFwQCRBrqyARLDnb7D+3PlXTUVp3s34ftlnGOVCmhLT9DeKA==}
-
-  '@dprint/markdown@0.21.1':
-    resolution: {integrity: sha512-XbZ/R7vRrBaZFYXG6vAvLvtaMVXHu8XB+xwie7OYrG+dPoGDP8UADGirIbzUyX8TmrAZcl6QBmalipTGlpzRmQ==}
-
-  '@dprint/toml@0.7.0':
-    resolution: {integrity: sha512-eFaQTcfxKHB+YyTh83x7GEv+gDPuj9q5NFOTaoj5rZmQTbj6OgjjMxUicmS1R8zYcx8YAq5oA9J3YFa5U6x2gA==}
-=======
   '@commitlint/cli@20.4.3':
     resolution: {integrity: sha512-Z37EMoDT7+Upg500vlr/vZrgRsb6Xc5JAA3Tv7BYbobnN/ZpqUeZnSLggBg2+1O+NptRDtyujr2DD1CPV2qwhA==}
     engines: {node: '>=v18'}
@@ -315,7 +302,15 @@ packages:
   '@commitlint/types@20.4.3':
     resolution: {integrity: sha512-51OWa1Gi6ODOasPmfJPq6js4pZoomima4XLZZCrkldaH2V5Nb3bVhNXPeT6XV0gubbainSpTw4zi68NqAeCNCg==}
     engines: {node: '>=v18'}
->>>>>>> ae255d3... feat: add husky, commitlint
+
+  '@dprint/formatter@0.5.1':
+    resolution: {integrity: sha512-cdZUrm0iv/FnnY3CKE2dEcVhNEzrC551aE2h2mTFwQCRBrqyARLDnb7D+3PlXTUVp3s34ftlnGOVCmhLT9DeKA==}
+
+  '@dprint/markdown@0.21.1':
+    resolution: {integrity: sha512-XbZ/R7vRrBaZFYXG6vAvLvtaMVXHu8XB+xwie7OYrG+dPoGDP8UADGirIbzUyX8TmrAZcl6QBmalipTGlpzRmQ==}
+
+  '@dprint/toml@0.7.0':
+    resolution: {integrity: sha512-eFaQTcfxKHB+YyTh83x7GEv+gDPuj9q5NFOTaoj5rZmQTbj6OgjjMxUicmS1R8zYcx8YAq5oA9J3YFa5U6x2gA==}
 
   '@es-joy/jsdoccomment@0.84.0':
     resolution: {integrity: sha512-0xew1CxOam0gV5OMjh2KjFQZsKL2bByX1+q4j3E73MpYIdyUxcZb/xQct9ccUb+ve5KGUYbCUxyPnYB7RbuP+w==}
@@ -2308,10 +2303,6 @@ packages:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
 
-  simple-git-hooks@2.13.1:
-    resolution: {integrity: sha512-WszCLXwT4h2k1ufIXAgsbiTOazqqevFCIncOuUBZJ91DdvWcC5+OFkluWRQPrcuSYd8fjq+o2y1QfWqYMoAToQ==}
-    hasBin: true
-
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
@@ -2759,13 +2750,6 @@ snapshots:
       '@clack/core': 1.1.0
       sisteransi: 1.0.5
 
-<<<<<<< HEAD
-  '@dprint/formatter@0.5.1': {}
-
-  '@dprint/markdown@0.21.1': {}
-
-  '@dprint/toml@0.7.0': {}
-=======
   '@commitlint/cli@20.4.3(@types/node@24.11.0)(typescript@5.9.3)':
     dependencies:
       '@commitlint/format': 20.4.3
@@ -2874,7 +2858,12 @@ snapshots:
     dependencies:
       conventional-commits-parser: 6.3.0
       picocolors: 1.1.1
->>>>>>> ae255d3... feat: add husky, commitlint
+
+  '@dprint/formatter@0.5.1': {}
+
+  '@dprint/markdown@0.21.1': {}
+
+  '@dprint/toml@0.7.0': {}
 
   '@es-joy/jsdoccomment@0.84.0':
     dependencies:
@@ -5048,8 +5037,6 @@ snapshots:
   shebang-regex@3.0.0: {}
 
   signal-exit@4.1.0: {}
-
-  simple-git-hooks@2.13.1: {}
 
   sisteransi@1.0.5: {}
 
