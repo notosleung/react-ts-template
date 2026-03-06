@@ -1,4 +1,4 @@
-# [@notos9312/react-ts-template](https://github.com/notos9312/react-ts-template)
+# [@notosleung/react-ts-template](https://github.com/notosleung/react-ts-template)
 
 - Base on the **[Vite](https://vite.dev/)** officially recommended `react-ts` template
 - Use **[React-Router](https://github.com/remix-run/react-router)** as the Router for [React](https://github.com/facebook/react)
