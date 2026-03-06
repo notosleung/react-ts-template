@@ -1,7 +1,7 @@
 # [@notosleung/react-ts-template](https://github.com/notosleung/react-ts-template)
 
 - Base on the **[Vite](https://vite.dev/)** officially recommended `react-ts` template
-- Use **[React-Router](https://github.com/remix-run/react-router)** as the Router for [React](https://github.com/facebook/react)
+- Use **[React-Router](https://github.com/remix-run/react-router)** as the Router for **[React](https://github.com/facebook/react)**
 - Use **[@antfu/eslint-config](https://github.com/antfu/eslint-config)** as Linter and Formatter
 - Use **[husky](https://github.com/typicode/husky)** and **[commitlint](https://github.com/conventional-changelog/commitlint)** as CLI
 
