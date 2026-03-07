@@ -35,15 +35,13 @@ npx @eslint/config-inspector
 
 ## Commitlint hint
 
-```bash
-feat:     新功能
-fix:      修复 bug
-docs:     文档修改
-style:    代码格式修改（不影响逻辑）
-refactor: 代码重构
-test:     测试相关
-chore:    构建/工具/依赖更新
-```
+- feat:     新功能
+- fix:      修复 bug
+- docs:     文档修改
+- style:    代码格式修改（不影响逻辑）
+- refactor: 代码重构
+- test:     测试相关
+- chore:    构建/工具/依赖更新
 
 > [!TIP]
 > your first commit should be with `--no-verify`:
