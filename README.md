@@ -45,6 +45,14 @@ test:     测试相关
 chore:    构建/工具/依赖更新
 ```
 
+> [!TIP]
+> your first commit should be with `--no-verify`:
+
+```bash
+git commit -m "..." --no-verify
+```
+
+
 ## State Management Solution
 
 Recommend **[Zusand](https://github.com/pmndrs/zustand)**
